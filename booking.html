@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Book Now — Jasheri House of Beauty</title>
+<meta name="description" content="Book your appointment at Jasheri House of Beauty. Online scheduling powered by Wix Bookings." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__brand">Jasheri<span>House of Beauty</span></a>
+    <ul class="nav__menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="stylists.html">Stylists</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="booking.html" class="btn nav__cta">Book Now</a></li>
+    </ul>
+    <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <span class="eyebrow">Reserve Your Chair</span>
+    <h1>Book an Appointment</h1>
+    <p>Select a service, choose a stylist, and find a time that works for you. Confirmation is sent to your email and phone instantly.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container" style="max-width:960px;">
+
+    <!-- Step indicators -->
+    <div class="grid grid--3 reveal" style="margin-bottom:3rem;">
+      <div class="card">
+        <div class="card__icon">01</div>
+        <h3>Choose Service</h3>
+        <p>Browse our full menu of hair, color, lash, nail, and bridal services.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">02</div>
+        <h3>Select Stylist</h3>
+        <p>Pick your preferred artist, or let us match you with the right specialist.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">03</div>
+        <h3>Pick a Time</h3>
+        <p>Real-time availability — instantly reserved and confirmed.</p>
+      </div>
+    </div>
+
+    <!-- Wix Bookings embed placeholder -->
+    <div class="booking-embed reveal">
+      <span class="eyebrow">Live Booking</span>
+      <h3>Wix Bookings Will Appear Here</h3>
+      <p style="margin: 1rem auto;">Once migrated to Wix Studios, replace this block with the <strong>Wix Bookings widget</strong>. All appointments, confirmations, payments, and reminders will flow through your Wix Bookings dashboard automatically.</p>
+      <code>&lt;!-- Wix Bookings Widget Embed --&gt;</code>
+    </div>
+
+    <!-- Interim booking request form (for testing before Wix integration) -->
+    <div class="reveal" style="margin-top:4rem;">
+      <div class="section-head">
+        <span class="eyebrow">Or Request Manually</span>
+        <h2>Booking Request</h2>
+        <p>Prefer to send a request? Fill out the form and we'll confirm your appointment within 24 hours.</p>
+      </div>
+
+      <form class="form" onsubmit="event.preventDefault(); alert('Thank you — this form is a placeholder. Wix Bookings will handle real submissions.');">
+        <div class="grid grid--2">
+          <div class="form__field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required />
+          </div>
+          <div class="form__field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" required />
+          </div>
+        </div>
+
+        <div class="form__field">
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div class="grid grid--2">
+          <div class="form__field">
+            <label for="service">Service</label>
+            <select id="service" required>
+              <option value="">Select a service...</option>
+              <option>Signature Haircut</option>
+              <option>Blowout &amp; Style</option>
+              <option>Single Process Color</option>
+              <option>Balayage / Hand-Painted</option>
+              <option>Full Highlights</option>
+              <option>Partial Highlights</option>
+              <option>Keratin Smoothing</option>
+              <option>Extensions (Consultation)</option>
+              <option>Lash Set (Classic / Volume)</option>
+              <option>Lash Fill</option>
+              <option>Brow Shaping &amp; Tint</option>
+              <option>Gel Manicure</option>
+              <option>Luxury Pedicure</option>
+              <option>Bridal Trial</option>
+              <option>Wedding Day Styling</option>
+              <option>Other / Custom</option>
+            </select>
+          </div>
+          <div class="form__field">
+            <label for="stylist">Preferred Stylist</label>
+            <select id="stylist">
+              <option>No Preference</option>
+              <option>Alexandra Moreno</option>
+              <option>Jordan Rivera</option>
+              <option>Sienna Patel</option>
+              <option>Morgan Lee</option>
+              <option>Camille Bennett</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="form__field">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" required />
+          </div>
+          <div class="form__field">
+            <label for="time">Preferred Time</label>
+            <select id="time" required>
+              <option value="">Select a time...</option>
+              <option>Morning (10a – 12p)</option>
+              <option>Afternoon (12p – 4p)</option>
+              <option>Evening (4p – 8p)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form__field">
+          <label for="notes">Additional Notes</label>
+          <textarea id="notes" placeholder="Tell us about your goals, inspiration, or any specific requests..."></textarea>
+        </div>
+
+        <div style="text-align:center; margin-top:1rem;">
+          <button type="submit" class="btn">Submit Request</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Cancellation policy -->
+    <div class="reveal" style="margin-top:5rem; padding:2.5rem; background:var(--cream); border-left:3px solid var(--tan);">
+      <span class="eyebrow">Please Note</span>
+      <h3 style="margin-bottom:1rem;">Cancellation Policy</h3>
+      <p>We kindly ask for 24 hours notice for cancellations or rescheduling. Late cancellations and no-shows are subject to a 50% service fee. A credit card is required to hold your reservation.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">Jasheri<span>House of Beauty</span></div>
+        <p>A luxury beauty experience in the heart of Hasbrouck Heights, New Jersey — where every guest is treated like the only one.</p>
+      </div>
+      <div><h5>Visit</h5><p>123 Boulevard<br/>Hasbrouck Heights, NJ 07604</p></div>
+      <div><h5>Hours</h5><p>Tue – Fri · 10a – 8p<br/>Sat · 9a – 6p<br/>Sun – Mon · Closed</p></div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Book Now</a></li>
+          <li><a href="stylists.html">Stylists</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div>© 2026 Jasheri House of Beauty. All rights reserved.</div>
+      <div class="footer__social"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">TikTok</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
