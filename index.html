@@ -8,22 +8,22 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/styles.css?v=5" />
 </head>
 <body>
 
 <!-- ============ NAV ============ -->
 <nav class="nav">
   <div class="nav__inner">
-    <a href="index.html" class="nav__brand">Jasheri<span>House of Beauty</span></a>
-    <ul class="nav__menu">
+    <ul class="nav__menu nav__menu--left">
       <li><a href="index.html">Home</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="stylists.html">Stylists</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
       <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="booking.html" class="btn nav__cta">Book Now</a></li>
+    </ul>
+    <a href="index.html" class="nav__brand">Jasheri<span>House of Beauty</span></a>
+    <ul class="nav__menu nav__menu--right">
+      <li><a href="booking.html">Book Now</a></li>
     </ul>
     <button class="nav__toggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
@@ -39,10 +39,9 @@
       <span class="eyebrow">Hasbrouck Heights · New Jersey</span>
       <h1>Where Beauty<br/>Meets Artistry.</h1>
       <p>A modern luxury salon dedicated to elevating your confidence through precision hair, color, and beauty services crafted by an expert team.</p>
-      <div class="hero__actions">
-        <a href="booking.html" class="btn">Book an Appointment</a>
-        <a href="services.html" class="btn btn--ghost" style="background:rgba(250,246,240,0.08); color:var(--off-white); border-color:rgba(250,246,240,0.4);">Explore Services</a>
-      </div>
+    </div>
+    <div class="hero__actions reveal">
+      <a href="booking.html" class="btn">Book an Appointment</a>
     </div>
   </div>
   <div class="hero__scroll">Scroll</div>
@@ -60,6 +59,26 @@
         <p style="margin-top:1rem;">Step inside and discover a space designed for indulgence: warm neutrals, hand-selected products, and a team devoted to bringing your vision to life.</p>
         <a href="about.html" class="btn btn--ghost" style="margin-top:2rem;">More About Us</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY PREVIEW ============ -->
+<section id="gallery">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">The Gallery</span>
+      <h2>A look inside the house.</h2>
+      <p>Moments from the chair — color, cuts, and transformations crafted by our team.</p>
+    </div>
+    <div class="gallery reveal">
+      <div class="gallery__item gallery__item--tall" style="background-image:url('https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80')"></div>
+      <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=900&q=80')"></div>
+      <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80')"></div>
+      <div class="gallery__item gallery__item--wide" style="background-image:url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1400&q=80')"></div>
+      <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=900&q=80')"></div>
+      <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=80')"></div>
+      <div class="gallery__item" style="background-image:url('https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=900&q=80')"></div>
     </div>
   </div>
 </section>
@@ -112,37 +131,6 @@
   </div>
 </section>
 
-<!-- ============ STYLISTS PREVIEW ============ -->
-<section>
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow">Our Team</span>
-      <h2>Meet the Artists</h2>
-      <p>A team of licensed professionals, each a master of their craft.</p>
-    </div>
-    <div class="grid grid--3">
-      <div class="stylist reveal">
-        <div class="stylist__photo" style="background-image:url('https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=80')"></div>
-        <div class="stylist__name">Alexandra Moreno</div>
-        <div class="stylist__role">Master Stylist · Owner</div>
-      </div>
-      <div class="stylist reveal">
-        <div class="stylist__photo" style="background-image:url('https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&w=800&q=80')"></div>
-        <div class="stylist__name">Jordan Rivera</div>
-        <div class="stylist__role">Senior Colorist</div>
-      </div>
-      <div class="stylist reveal">
-        <div class="stylist__photo" style="background-image:url('https://images.unsplash.com/photo-1521146764736-56c929d59c83?auto=format&fit=crop&w=800&q=80')"></div>
-        <div class="stylist__name">Sienna Patel</div>
-        <div class="stylist__role">Lash &amp; Brow Artist</div>
-      </div>
-    </div>
-    <div style="text-align:center; margin-top:3rem;" class="reveal">
-      <a href="stylists.html" class="btn btn--ghost">Meet the Full Team</a>
-    </div>
-  </div>
-</section>
-
 <!-- ============ CTA BANNER ============ -->
 <section class="cta-banner reveal">
   <div class="container">
@@ -174,7 +162,7 @@
         <ul>
           <li><a href="services.html">Services</a></li>
           <li><a href="booking.html">Book Now</a></li>
-          <li><a href="stylists.html">Stylists</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>

@@ -2,18 +2,19 @@
 
 // Mobile nav toggle
 const toggle = document.querySelector(".nav__toggle");
-const menu = document.querySelector(".nav__menu");
-if (toggle && menu) {
+const menus = document.querySelectorAll(".nav__menu");
+if (toggle && menus.length) {
+  const closeMenu = () => {
+    toggle.classList.remove("open");
+    menus.forEach((m) => m.classList.remove("open"));
+  };
   toggle.addEventListener("click", () => {
     toggle.classList.toggle("open");
-    menu.classList.toggle("open");
+    menus.forEach((m) => m.classList.toggle("open"));
   });
-  menu.querySelectorAll("a").forEach((a) =>
-    a.addEventListener("click", () => {
-      toggle.classList.remove("open");
-      menu.classList.remove("open");
-    })
-  );
+  document
+    .querySelectorAll(".nav__menu a")
+    .forEach((a) => a.addEventListener("click", closeMenu));
 }
 
 // Nav scrolled state
