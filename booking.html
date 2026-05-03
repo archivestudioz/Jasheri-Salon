@@ -3,12 +3,66 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Book Now — Jasheri House of Beauty</title>
-<meta name="description" content="Book your appointment at Jasheri House of Beauty. Online scheduling powered by Wix Bookings." />
+
+<!-- Primary -->
+<title>Book an Appointment | Jaesheri House of Beauty — Hasbrouck Heights, NJ</title>
+<meta name="description" content="Reserve your appointment at Jaesheri House of Beauty in Hasbrouck Heights, NJ. Easy online booking — choose your service, stylist, and time in seconds." />
+<meta name="keywords" content="book hair salon Hasbrouck Heights, hair appointment NJ, salon booking online, balayage booking, silk press appointment" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="theme-color" content="#0a0a0a" />
+<link rel="canonical" href="https://jaesherihouseofbeauty.com/booking.html" />
+
+<!-- Favicons -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jaesheri House of Beauty" />
+<meta property="og:title" content="Book an Appointment | Jaesheri House of Beauty" />
+<meta property="og:description" content="Reserve your chair at Jaesheri House of Beauty in Hasbrouck Heights, NJ — easy online booking." />
+<meta property="og:url" content="https://jaesherihouseofbeauty.com/booking.html" />
+<meta property="og:image" content="https://jaesherihouseofbeauty.com/assets/img/og-image.jpg" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Book an Appointment | Jaesheri House of Beauty" />
+<meta name="twitter:description" content="Reserve your chair at Jaesheri House of Beauty in Hasbrouck Heights, NJ." />
+<meta name="twitter:image" content="https://jaesherihouseofbeauty.com/assets/img/og-image.jpg" />
+
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/styles.css?v=8" />
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Book an Appointment — Jaesheri House of Beauty",
+  "url": "https://jaesherihouseofbeauty.com/booking.html",
+  "about": { "@id": "https://jaesherihouseofbeauty.com/#salon" },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": "https://jaesherihouseofbeauty.com/booking.html",
+    "result": { "@type": "Reservation", "name": "Salon Appointment" }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://jaesherihouseofbeauty.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Book Now", "item": "https://jaesherihouseofbeauty.com/booking.html" }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -20,7 +74,7 @@
       <li><a href="services.html">Services</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <a href="index.html" class="nav__brand">Jasheri<span>House of Beauty</span></a>
+    <a href="index.html" class="nav__brand">Jaesheri<span>House of Beauty</span></a>
     <ul class="nav__menu nav__menu--right">
       <li><a href="booking.html">Book Now</a></li>
     </ul>
@@ -44,7 +98,7 @@
       <div class="card">
         <div class="card__icon">01</div>
         <h3>Choose Service</h3>
-        <p>Browse our full menu of hair, color, lash, nail, and bridal services.</p>
+        <p>Browse our full menu of haircuts, color, chemical services, extensions, treatments, and waxing.</p>
       </div>
       <div class="card">
         <div class="card__icon">02</div>
@@ -58,15 +112,15 @@
       </div>
     </div>
 
-    <!-- Wix Bookings embed placeholder -->
+    <!-- Square Appointments embed placeholder -->
     <div class="booking-embed reveal">
       <span class="eyebrow">Live Booking</span>
-      <h3>Wix Bookings Will Appear Here</h3>
-      <p style="margin: 1rem auto;">Once migrated to Wix Studios, replace this block with the <strong>Wix Bookings widget</strong>. All appointments, confirmations, payments, and reminders will flow through your Wix Bookings dashboard automatically.</p>
-      <code>&lt;!-- Wix Bookings Widget Embed --&gt;</code>
+      <h3>Square Appointments Will Appear Here</h3>
+      <p style="margin: 1rem auto;">Once your Square account is set up, paste the <strong>Square Appointments</strong> embed snippet in place of this block. All appointments, confirmations, payments, and reminders will flow through your Square dashboard automatically.</p>
+      <code>&lt;!-- Square Appointments embed --&gt;</code>
     </div>
 
-    <!-- Interim booking request form (for testing before Wix integration) -->
+    <!-- Interim booking request form (for testing before Square integration) -->
     <div class="reveal" style="margin-top:4rem;">
       <div class="section-head">
         <span class="eyebrow">Or Request Manually</span>
@@ -74,7 +128,7 @@
         <p>Prefer to send a request? Fill out the form and we'll confirm your appointment within 24 hours.</p>
       </div>
 
-      <form class="form" onsubmit="event.preventDefault(); alert('Thank you — this form is a placeholder. Wix Bookings will handle real submissions.');">
+      <form class="form" onsubmit="event.preventDefault(); alert('Thank you — this form is a placeholder. Square Appointments will handle real bookings once integrated.');">
         <div class="grid grid--2">
           <div class="form__field">
             <label for="name">Full Name</label>
@@ -96,21 +150,56 @@
             <label for="service">Service</label>
             <select id="service" required>
               <option value="">Select a service...</option>
-              <option>Signature Haircut</option>
-              <option>Blowout &amp; Style</option>
-              <option>Single Process Color</option>
-              <option>Balayage / Hand-Painted</option>
-              <option>Full Highlights</option>
-              <option>Partial Highlights</option>
-              <option>Keratin Smoothing</option>
-              <option>Extensions (Consultation)</option>
-              <option>Lash Set (Classic / Volume)</option>
-              <option>Lash Fill</option>
-              <option>Brow Shaping &amp; Tint</option>
-              <option>Gel Manicure</option>
-              <option>Luxury Pedicure</option>
-              <option>Bridal Trial</option>
-              <option>Wedding Day Styling</option>
+              <optgroup label="Consultation">
+                <option>Consultation</option>
+                <option>Extensions Consultation</option>
+              </optgroup>
+              <optgroup label="Haircuts">
+                <option>Signature Cut</option>
+                <option>Signature Clipper Cut</option>
+                <option>Premium Cut</option>
+                <option>Premium Curly Cut</option>
+                <option>Haircut — Bangs / Fringe / Neckline</option>
+              </optgroup>
+              <optgroup label="Style">
+                <option>Press and Curl</option>
+                <option>Premium Blowout</option>
+                <option>Silk Press</option>
+                <option>Curly Style</option>
+                <option>Formal / Updo</option>
+              </optgroup>
+              <optgroup label="Color &amp; Highlights">
+                <option>Single Process — Roots</option>
+                <option>All-Over Color</option>
+                <option>Partial Custom Blonding</option>
+                <option>Full Custom Blonding</option>
+                <option>Toner / Gloss / Refresher</option>
+              </optgroup>
+              <optgroup label="Chemical Services">
+                <option>Relaxer</option>
+                <option>Relaxer Re-Touch</option>
+                <option>Texturizer</option>
+                <option>Keratin Treatment</option>
+                <option>Body Wave / Perm</option>
+              </optgroup>
+              <optgroup label="Extensions">
+                <option>Extensions — Application Consultation</option>
+                <option>Take-Down / Braid Removal / Detangle</option>
+              </optgroup>
+              <optgroup label="Treatments">
+                <option>Spa Mist Treatment</option>
+                <option>Scalp Rejuvenation Enhancement</option>
+                <option>Conditioning Treatment</option>
+              </optgroup>
+              <optgroup label="Waxing">
+                <option>Brow Shaping</option>
+                <option>Full Face Wax</option>
+                <option>Lip Wax</option>
+                <option>Chin Wax</option>
+                <option>Lip &amp; Chin Wax</option>
+                <option>Side-Burn Wax</option>
+                <option>Trilogy — Lip, Chin &amp; Brows</option>
+              </optgroup>
               <option>Other / Custom</option>
             </select>
           </div>
@@ -168,7 +257,7 @@
   <div class="container">
     <div class="footer__grid">
       <div>
-        <div class="footer__brand">Jasheri<span>House of Beauty</span></div>
+        <div class="footer__brand">Jaesheri<span>House of Beauty</span></div>
         <p>A luxury beauty experience in the heart of Hasbrouck Heights, New Jersey — where every guest is treated like the only one.</p>
       </div>
       <div><h5>Visit</h5><p>123 Boulevard<br/>Hasbrouck Heights, NJ 07604</p></div>
@@ -184,7 +273,7 @@
       </div>
     </div>
     <div class="footer__bottom">
-      <div>© 2026 Jasheri House of Beauty. All rights reserved.</div>
+      <div>© 2026 Jaesheri House of Beauty. All rights reserved.</div>
       <div class="footer__social"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">TikTok</a></div>
     </div>
   </div>

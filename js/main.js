@@ -1,20 +1,23 @@
-// Jasheri House of Beauty — main.js
+// Jaesheri House of Beauty — main.js
 
 // Mobile nav toggle
 const toggle = document.querySelector(".nav__toggle");
 const menus = document.querySelectorAll(".nav__menu");
 if (toggle && menus.length) {
-  const closeMenu = () => {
-    toggle.classList.remove("open");
-    menus.forEach((m) => m.classList.remove("open"));
+  const setOpen = (open) => {
+    toggle.classList.toggle("open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    menus.forEach((m) => m.classList.toggle("open", open));
+    document.body.classList.toggle("nav-open", open);
   };
-  toggle.addEventListener("click", () => {
-    toggle.classList.toggle("open");
-    menus.forEach((m) => m.classList.toggle("open"));
-  });
+  const closeMenu = () => setOpen(false);
+  toggle.addEventListener("click", () => setOpen(!toggle.classList.contains("open")));
   document
     .querySelectorAll(".nav__menu a")
     .forEach((a) => a.addEventListener("click", closeMenu));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeMenu();
+  });
 }
 
 // Nav scrolled state

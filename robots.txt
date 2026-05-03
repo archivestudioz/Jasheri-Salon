@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /assets/videos/
+
+Sitemap: https://jaesherihouseofbeauty.com/sitemap.xml
