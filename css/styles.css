@@ -181,16 +181,19 @@ section { padding: clamp(4rem, 9vw, 8rem) 0; }
 .nav__menu--left { justify-self: start; }
 .nav__menu--right { justify-self: end; }
 
-.nav__menu--right a {
+.nav__menu.nav__menu--right a {
+  display: inline-block;
   border: 1px solid var(--black);
-  padding: 0.7rem 1.4rem;
-  transition: background 0.25s var(--ease), color 0.25s var(--ease);
+  border-radius: 10px;
+  padding: 1rem 2.25rem;
+  line-height: 1;
+  transition: background 0.25s var(--ease), color 0.25s var(--ease), border-color 0.25s var(--ease);
 }
-.nav__menu--right a:hover {
+.nav__menu.nav__menu--right a:hover {
   background: var(--black);
   color: var(--off-white);
 }
-.nav__menu--right a.active::after { display: none; }
+.nav__menu.nav__menu--right a.active::after { display: none; }
 
 .nav__brand {
   text-align: center;
@@ -357,6 +360,7 @@ section { padding: clamp(4rem, 9vw, 8rem) 0; }
   overflow: hidden;
   color: var(--off-white);
   padding-top: 6rem;
+  padding-bottom: 7rem;
   background:
     linear-gradient(135deg, rgba(10,10,10,0.55) 0%, rgba(10,10,10,0.35) 60%, rgba(184,147,106,0.3) 100%),
     url("https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=2000&q=80") center/cover no-repeat;
