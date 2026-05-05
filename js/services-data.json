@@ -1,0 +1,420 @@
+{
+  "categories": [
+    {
+      "id": "66NZY5CHNFAIMKQGIUGZDADD",
+      "name": "Style",
+      "ordinal": 0
+    },
+    {
+      "id": "7K46AOEEQSWWQLJQD24QF5R4",
+      "name": "Waxing",
+      "ordinal": 1
+    },
+    {
+      "id": "ALQDU5MCXPKYQL5WLNXK2GHA",
+      "name": "Extensions",
+      "ordinal": 2
+    },
+    {
+      "id": "JHYBMOQ23UEMOHBO7GUO5OVK",
+      "name": "Haircuts",
+      "ordinal": 3
+    },
+    {
+      "id": "JTARAZTX4ZX7G3VQOIEL22LX",
+      "name": "Chemical Services",
+      "ordinal": 4
+    },
+    {
+      "id": "MB7E4DMW3CLPEP2HZ6VMR4F5",
+      "name": "Color",
+      "ordinal": 5
+    },
+    {
+      "id": "SFTTG7OJU56NMGH3SMIWS3SW",
+      "name": "Consultation",
+      "ordinal": 6
+    },
+    {
+      "id": "WJJSO5RMB6AH22WPDUUW5XOD",
+      "name": "Treatments",
+      "ordinal": 7
+    }
+  ],
+  "services": [
+    {
+      "id": "AWN6GICJ6EE7UZGQ2DYRNBRB",
+      "name": "Consultation",
+      "description": "15 min consultation catered to your individual hair concerns on any of these following topics: Color, chemical or cut.",
+      "category_id": "SFTTG7OJU56NMGH3SMIWS3SW",
+      "price_text": null,
+      "price_cents": 1500,
+      "price_type": "fixed",
+      "duration_min": 15,
+      "ordinal": 1
+    },
+    {
+      "id": "45W4GVBXATYFJ6EMWLA5XZAP",
+      "name": "Signature Clipper Cut",
+      "description": "Our Signature Clipper Cut service offers a tailored shampoo, fades, tapers, and scissor over comb techniques specifically designed for short hair, all completed with our unique signature finish.",
+      "category_id": "JHYBMOQ23UEMOHBO7GUO5OVK",
+      "price_text": null,
+      "price_cents": 3500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 1
+    },
+    {
+      "id": "EZHOZ32JKXEC3XG4GKKQ4F5T",
+      "name": "Formal",
+      "description": "Our Formaol/ Updo service offers an in-depth consultation and a customized updo style created specifically for you. Experience a personalized and stunning hairstyle that perfectly complements your unique style.",
+      "category_id": "66NZY5CHNFAIMKQGIUGZDADD",
+      "price_text": null,
+      "price_cents": 12500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 1
+    },
+    {
+      "id": "6BI2LRH4RS4MYR4CQYM55VKU",
+      "name": "Full Custom Color Blonding",
+      "description": "If you're wanting a bright, bold impact - you've found your service. The full blonding will lighten and blend from the base of your neckline to the top of your head. Ideal for anyone wanting a major change! This service includes a toner but\nMUST BE BOOKED WITH STYLING SERVICE. MAINTENCE INFO\n2-4 months",
+      "category_id": "MB7E4DMW3CLPEP2HZ6VMR4F5",
+      "price_text": null,
+      "price_cents": 23000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 1
+    },
+    {
+      "id": "2EBZWEAWJHSFZDEY3X37UU3H",
+      "name": "Texturizer",
+      "description": "Also known as \"silkener\" process that permanently alters the hair by loosening the curl",
+      "category_id": "JTARAZTX4ZX7G3VQOIEL22LX",
+      "price_text": null,
+      "price_cents": 10500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 1
+    },
+    {
+      "id": "XM56AO3OLHEUNR25RK4Z2LZV",
+      "name": "Extensions - Application Consultation",
+      "description": "In depth personalized consultation that covers hair goals, such as length, texture, color, density for a truly tailored experience ***Prices determined after consultation***",
+      "category_id": "ALQDU5MCXPKYQL5WLNXK2GHA",
+      "price_text": null,
+      "price_cents": 4000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 1
+    },
+    {
+      "id": "ET2Q6WVLEIJ5TUAM3SVAIFQZ",
+      "name": "Scalp Rejuvenation Enhancement",
+      "description": "Promote a healthy scalp and vibrant hair growth with our Scalp Rejuvenation Enhancement treatment, which gently exfoliates, removes product buildup, and unclogs follicles for oily, dry, and flaking scalp issues. Experience the indulgence that not only feels great, but also creates a clean and refreshed environment for your hair to thrive.",
+      "category_id": "WJJSO5RMB6AH22WPDUUW5XOD",
+      "price_text": null,
+      "price_cents": 5000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 1
+    },
+    {
+      "id": "2DIPWML7GJVYSCPJ5JQPFMHF",
+      "name": "Waxing - Brow Shaping",
+      "description": "Enhance your natural beauty and perfect your arches with our precision waxing and shaping services that leave you with flawless brows, beautifully framing and accentuating your eyes for a refined and polished look.",
+      "category_id": "7K46AOEEQSWWQLJQD24QF5R4",
+      "price_text": null,
+      "price_cents": 1000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 1
+    },
+    {
+      "id": "I7JYXZR6HFXB5L3VMP4GCS35",
+      "name": "Extensions Consultation",
+      "description": "Extensions Consultation provides personalized consultations for individuals seeking their ideal hair transformation, covering aspects such as length, texture, color, and density for a truly tailored experience.",
+      "category_id": "SFTTG7OJU56NMGH3SMIWS3SW",
+      "price_text": null,
+      "price_cents": 4000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 2
+    },
+    {
+      "id": "6SHKM344A4GUPAHBL627XC2L",
+      "name": "Signature Cut",
+      "description": "Our Signature Cut service offers a personalized experience that starts with a thorough consultation and tailored shampoo and conditioning treatment. Enjoy a relaxing scalp massage before our skilled stylists give you a perfect haircut, finishing off with a stunning blowout and style that will leave you feeling confident and refreshed.MAINTENCE INFO\n8-12 weeks or as needed. With any color service I highly recommend adding a haircut",
+      "category_id": "JHYBMOQ23UEMOHBO7GUO5OVK",
+      "price_text": null,
+      "price_cents": 5500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 2
+    },
+    {
+      "id": "GK7MTUTVRUZZSSSRCQE33WFU",
+      "name": "Silk Press",
+      "description": "Get a customized hair care experience with the Silk Press service, which includes a personalized consultation, a luxurious shampoo and conditioning treatment, and expert styling techniques designed specifically for curly and natural hair. Treat your locks to the ultimate pampering session and achieve a sleek, smooth look that lasts.",
+      "category_id": "66NZY5CHNFAIMKQGIUGZDADD",
+      "price_text": null,
+      "price_cents": 7500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 2
+    },
+    {
+      "id": "CM72FLA4XKDDDPMYYXJVOA55",
+      "name": "Single process (Roots)",
+      "description": "Includes: Root touch up. Up to 1-1/2\" coverage. A single process color (demi/semi permanent and permanent color)\n\nMUST BOOK STYLING SERVICE",
+      "category_id": "MB7E4DMW3CLPEP2HZ6VMR4F5",
+      "price_text": null,
+      "price_cents": 8000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 2
+    },
+    {
+      "id": "6XWSNCJSRJGXZC2TUQJQ3O47",
+      "name": "Keratin",
+      "description": "Soften, shine, smooth, reduce/eliminate frizz and give instant manageability",
+      "category_id": "JTARAZTX4ZX7G3VQOIEL22LX",
+      "price_text": null,
+      "price_cents": 25000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 2
+    },
+    {
+      "id": "Y4UO6R47TZGEBUGJJPLQKMTK",
+      "name": "Take down Extensions/ Braids/Detangle",
+      "description": "Our expert stylists provide professional removal of existing extensions, braids, or deep detangle services, ensuring that your hair is left beautifully untangled and ready for a fresh new look. Per half hour.",
+      "category_id": "ALQDU5MCXPKYQL5WLNXK2GHA",
+      "price_text": null,
+      "price_cents": 5000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 2
+    },
+    {
+      "id": "GOQSFAFBDNPFFKJD7ZUT43DC",
+      "name": "Conditioning Treatment",
+      "description": "BOND BUILDERS: A system that permanently rebuilds the damaged bonds in your hair that are broken during the chemical process, rebuilding the hair from the insidde out. great for after color, lightening service, chemical service, heat damage or prone to dryness & breakage\nDEEP HYDRATION/ MOISTURE: for dry, brittle & prone to breakage\nHAIR STRENGTHENING (PROTIEN): replenishes the lost protien by filling in the gaps in the hairs cuticle. great for porous. limp, low elasticity and hair shedding",
+      "category_id": "WJJSO5RMB6AH22WPDUUW5XOD",
+      "price_text": null,
+      "price_cents": 3000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 2
+    },
+    {
+      "id": "6XLNXO4WHLKNX7N6MZ2GCOWT",
+      "name": "Waxing - Lips",
+      "description": "Waxing of lip area",
+      "category_id": "7K46AOEEQSWWQLJQD24QF5R4",
+      "price_text": null,
+      "price_cents": 1000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 2
+    },
+    {
+      "id": "RNU6M7ASE7LMSWHKTOLQBBDO",
+      "name": "Haircut (Bangs/Fringe/Neckline)",
+      "description": "Get a fresh and polished look with our Haircut (Bangs/Fringe/Neckline) service, which includes a precise trim of your existing bang, fringe, or neckline to enhance your overall style and maintenance.",
+      "category_id": "JHYBMOQ23UEMOHBO7GUO5OVK",
+      "price_text": null,
+      "price_cents": 1500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 3
+    },
+    {
+      "id": "GSPLNARWLZ2JILYIMM5CM5QG",
+      "name": "Premium Blowout",
+      "description": "Experience a luxurious and pampering salon session with our Premium Blowout service, which includes a detailed consultation to understand your hair needs, followed by a refreshing shampoo and nourishing conditioner, and finished with a perfect blow dry that leaves your hair looking sleek and stylish.",
+      "category_id": "66NZY5CHNFAIMKQGIUGZDADD",
+      "price_text": null,
+      "price_cents": 5000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 3
+    },
+    {
+      "id": "F2ISI7N7EBLT2R6BDBK3TNTV",
+      "name": "Toner/Gloss/Refreshers",
+      "description": "If you're wanting to add shine, switch the tone of your hair, or simply wanting a quick change, you've found your service. This is a great service to get in between full appointments to keep your hair glossy and glowing. 6-8 weeks, or when you feel like your hair needs extra love;",
+      "category_id": "MB7E4DMW3CLPEP2HZ6VMR4F5",
+      "price_text": null,
+      "price_cents": 5000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 3
+    },
+    {
+      "id": "ML4IIGACFDB5UH37T7EN3FGD",
+      "name": "Relaxer",
+      "description": "Chemical process permanently straighten the hair",
+      "category_id": "JTARAZTX4ZX7G3VQOIEL22LX",
+      "price_text": null,
+      "price_cents": 10500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 3
+    },
+    {
+      "id": "TICFVV5ONKKDTM6TDQVL5XKY",
+      "name": "Spa Mist Treatment",
+      "description": "Detoxify and revitalize your hair with our personalized Spa Mist Treatment, designed to remove impurities from your scalp while nourishing your hair with a targeted mist system based on your unique needs for protein, bonding, or deep hydration. Pamper yourself and enjoy the ultimate hair rejuvenation experience.",
+      "category_id": "WJJSO5RMB6AH22WPDUUW5XOD",
+      "price_text": null,
+      "price_cents": 6000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 3
+    },
+    {
+      "id": "C422OFANRAQCWBUN4O6HJOV6",
+      "name": "Waxing - Chin",
+      "description": "Waxing of chin area",
+      "category_id": "7K46AOEEQSWWQLJQD24QF5R4",
+      "price_text": null,
+      "price_cents": 1000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 3
+    },
+    {
+      "id": "RUB5UADQWU6PADCL5NCHRS7V",
+      "name": "Premium Cut",
+      "description": "Our Premium Cut service is tailored to those with extra thick, dense, textured, and long hair, offering a comprehensive personal consultation, customized shampoo suggestions, a relaxing scalp massage, and a skillfully executed haircut, blowout, and styling. Please note that an additional $20.00 will be added for hair lengths that go beyond the waistline.MAINTENCE INFO\n8-12 weeks or as needed. With any color service I highly recommend adding a haircut",
+      "category_id": "JHYBMOQ23UEMOHBO7GUO5OVK",
+      "price_text": null,
+      "price_cents": 8000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 4
+    },
+    {
+      "id": "I34PA3KUCYE2V6IJZWSISAXE",
+      "name": "Curly Style",
+      "description": "Curly Style offers a comprehensive package that includes a personalized consultation, a luxurious shampoo and conditioning experience, as well as expert styling specifically designed for individuals with curly or natural hair seeking a wash-and-go look.",
+      "category_id": "66NZY5CHNFAIMKQGIUGZDADD",
+      "price_text": null,
+      "price_cents": 7000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 4
+    },
+    {
+      "id": "LJ4R36NZZW7RAQ7DSNYMYXSU",
+      "name": "Partial Custom Color Blonding",
+      "description": "Keeping you bright where it matters most. Starting at the top of your ears to the top of your part line, this is great way to create lighter color on selected strands to produce contrast dimension. This service includes a toner but MUST BE BOOKED WITH STYLING SERVICE. (Maintenance info: best if booked 2-3 months after a full blonding to brighten and refresh your color)",
+      "category_id": "MB7E4DMW3CLPEP2HZ6VMR4F5",
+      "price_text": null,
+      "price_cents": 19000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 4
+    },
+    {
+      "id": "PRKTJTNODECDQEDHCYLVEWZL",
+      "name": "Body Wave/Perm CONSULTATION",
+      "description": "Soft or springy curls",
+      "category_id": "JTARAZTX4ZX7G3VQOIEL22LX",
+      "price_text": null,
+      "price_cents": 0,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 4
+    },
+    {
+      "id": "F4IXVACNYQHUDGXRTGPSQDAS",
+      "name": "Waxing - Side-Burns",
+      "description": "Waxing of side burn areas",
+      "category_id": "7K46AOEEQSWWQLJQD24QF5R4",
+      "price_text": null,
+      "price_cents": 1000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 4
+    },
+    {
+      "id": "TLV5B323Z6IKKF7BGVGL76EM",
+      "name": "Premium Curly Cut",
+      "description": "Indulge in our Premium Curly Cut service, offering a personalized consultation, scalp massage, shampoo, conditioning treatment, and customized haircutting technique for wavy, curly, natural hair. Style options include a sleek Slik Press or embracing your natural curls with our Wash and Go look.MAINTENCE INFO\n12- 16 weeks or as needed. With any color service I highly recommend adding a haircut",
+      "category_id": "JHYBMOQ23UEMOHBO7GUO5OVK",
+      "price_text": null,
+      "price_cents": 12500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 5
+    },
+    {
+      "id": "N6BG6D2BEHMRTGFW4BRGYRBS",
+      "name": "Press and Curl",
+      "description": "Press and Curl provides a comprehensive package comprising a personalized consultation, invigorating shampoo and conditioning, as well as expert styling specifically designed for those with curly or natural textured hair to straighten (press it smooth) and then curl.",
+      "category_id": "66NZY5CHNFAIMKQGIUGZDADD",
+      "price_text": null,
+      "price_cents": 9000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 5
+    },
+    {
+      "id": "MFUNG64L25YRELHVO4VRISMZ",
+      "name": "All Over Color",
+      "description": "If you\u2019re wanting sleek, expensive looking hair color, you\u2019ve found your service. Typically needed when you\u2019re wanting to go darker or back to your natural this color will give you a glossy, monochromatic tone. refresh your color every 8-12 weeks; Includes: Overall color change in the brown and red family who never received color before\nMUST BE BOOKED WITH STYLING SERVICE",
+      "category_id": "MB7E4DMW3CLPEP2HZ6VMR4F5",
+      "price_text": null,
+      "price_cents": 11000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 5
+    },
+    {
+      "id": "Z5UFYZL2PCOJQLNYONJ5GTJ2",
+      "name": "Relaxer Re-Touch",
+      "description": "Chemical application at the root of hair to relax and straighten",
+      "category_id": "JTARAZTX4ZX7G3VQOIEL22LX",
+      "price_text": null,
+      "price_cents": 7500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 5
+    },
+    {
+      "id": "NQXKKK4SDACUHLCRJZZQWMWL",
+      "name": "Waxing - Full Face",
+      "description": "Waxing of full face",
+      "category_id": "7K46AOEEQSWWQLJQD24QF5R4",
+      "price_text": null,
+      "price_cents": 3500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 5
+    },
+    {
+      "id": "PT5YI6JSH2PS66Z5I6IC354B",
+      "name": "Waxing - Lip, Chin and Eyebrows (Trilogy)",
+      "description": "Waxing of lip, chin, and eyebrows",
+      "category_id": "7K46AOEEQSWWQLJQD24QF5R4",
+      "price_text": null,
+      "price_cents": 2500,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 6
+    },
+    {
+      "id": "TVOM2YRP2YBLAFG55TH4JGYR",
+      "name": "Waxing - Lip and Chin",
+      "description": "Waxing of lip and chin areas",
+      "category_id": "7K46AOEEQSWWQLJQD24QF5R4",
+      "price_text": null,
+      "price_cents": 2000,
+      "price_type": "fixed",
+      "duration_min": 30,
+      "ordinal": 7
+    }
+  ]
+}

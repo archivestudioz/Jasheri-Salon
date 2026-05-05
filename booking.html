@@ -36,7 +36,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/styles.css?v=8" />
+<link rel="stylesheet" href="css/styles.css?v=14" />
 
 <!-- Structured data -->
 <script type="application/ld+json">
@@ -112,135 +112,25 @@
       </div>
     </div>
 
-    <!-- Square Appointments embed placeholder -->
-    <div class="booking-embed reveal">
-      <span class="eyebrow">Live Booking</span>
-      <h3>Square Appointments Will Appear Here</h3>
-      <p style="margin: 1rem auto;">Once your Square account is set up, paste the <strong>Square Appointments</strong> embed snippet in place of this block. All appointments, confirmations, payments, and reminders will flow through your Square dashboard automatically.</p>
-      <code>&lt;!-- Square Appointments embed --&gt;</code>
+    <!-- Square Appointments embed -->
+    <div id="book" class="square-booking reveal">
+      <iframe
+        src="https://book.squareup.com/appointments/wtcavgdh941lv1/location/T7Z3E3GAA7CZT"
+        title="Book an Appointment with Jaesheri House of Beauty"
+        allow="payment"
+      ></iframe>
+      <p class="square-booking__fallback">
+        Trouble loading the booking widget?
+        <a href="https://book.squareup.com/appointments/wtcavgdh941lv1/location/T7Z3E3GAA7CZT" target="_blank" rel="noopener">Open in a new tab →</a>
+      </p>
     </div>
 
-    <!-- Interim booking request form (for testing before Square integration) -->
-    <div class="reveal" style="margin-top:4rem;">
-      <div class="section-head">
-        <span class="eyebrow">Or Request Manually</span>
-        <h2>Booking Request</h2>
-        <p>Prefer to send a request? Fill out the form and we'll confirm your appointment within 24 hours.</p>
-      </div>
-
-      <form class="form" onsubmit="event.preventDefault(); alert('Thank you — this form is a placeholder. Square Appointments will handle real bookings once integrated.');">
-        <div class="grid grid--2">
-          <div class="form__field">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" required />
-          </div>
-          <div class="form__field">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" required />
-          </div>
-        </div>
-
-        <div class="form__field">
-          <label for="email">Email</label>
-          <input type="email" id="email" required />
-        </div>
-
-        <div class="grid grid--2">
-          <div class="form__field">
-            <label for="service">Service</label>
-            <select id="service" required>
-              <option value="">Select a service...</option>
-              <optgroup label="Consultation">
-                <option>Consultation</option>
-                <option>Extensions Consultation</option>
-              </optgroup>
-              <optgroup label="Haircuts">
-                <option>Signature Cut</option>
-                <option>Signature Clipper Cut</option>
-                <option>Premium Cut</option>
-                <option>Premium Curly Cut</option>
-                <option>Haircut — Bangs / Fringe / Neckline</option>
-              </optgroup>
-              <optgroup label="Style">
-                <option>Press and Curl</option>
-                <option>Premium Blowout</option>
-                <option>Silk Press</option>
-                <option>Curly Style</option>
-                <option>Formal / Updo</option>
-              </optgroup>
-              <optgroup label="Color &amp; Highlights">
-                <option>Single Process — Roots</option>
-                <option>All-Over Color</option>
-                <option>Partial Custom Blonding</option>
-                <option>Full Custom Blonding</option>
-                <option>Toner / Gloss / Refresher</option>
-              </optgroup>
-              <optgroup label="Chemical Services">
-                <option>Relaxer</option>
-                <option>Relaxer Re-Touch</option>
-                <option>Texturizer</option>
-                <option>Keratin Treatment</option>
-                <option>Body Wave / Perm</option>
-              </optgroup>
-              <optgroup label="Extensions">
-                <option>Extensions — Application Consultation</option>
-                <option>Take-Down / Braid Removal / Detangle</option>
-              </optgroup>
-              <optgroup label="Treatments">
-                <option>Spa Mist Treatment</option>
-                <option>Scalp Rejuvenation Enhancement</option>
-                <option>Conditioning Treatment</option>
-              </optgroup>
-              <optgroup label="Waxing">
-                <option>Brow Shaping</option>
-                <option>Full Face Wax</option>
-                <option>Lip Wax</option>
-                <option>Chin Wax</option>
-                <option>Lip &amp; Chin Wax</option>
-                <option>Side-Burn Wax</option>
-                <option>Trilogy — Lip, Chin &amp; Brows</option>
-              </optgroup>
-              <option>Other / Custom</option>
-            </select>
-          </div>
-          <div class="form__field">
-            <label for="stylist">Preferred Stylist</label>
-            <select id="stylist">
-              <option>No Preference</option>
-              <option>Alexandra Moreno</option>
-              <option>Jordan Rivera</option>
-              <option>Sienna Patel</option>
-              <option>Morgan Lee</option>
-              <option>Camille Bennett</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="grid grid--2">
-          <div class="form__field">
-            <label for="date">Preferred Date</label>
-            <input type="date" id="date" required />
-          </div>
-          <div class="form__field">
-            <label for="time">Preferred Time</label>
-            <select id="time" required>
-              <option value="">Select a time...</option>
-              <option>Morning (10a – 12p)</option>
-              <option>Afternoon (12p – 4p)</option>
-              <option>Evening (4p – 8p)</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="form__field">
-          <label for="notes">Additional Notes</label>
-          <textarea id="notes" placeholder="Tell us about your goals, inspiration, or any specific requests..."></textarea>
-        </div>
-
-        <div style="text-align:center; margin-top:1rem;">
-          <button type="submit" class="btn">Submit Request</button>
-        </div>
-      </form>
+    <!-- Prefer to call/text fallback -->
+    <div class="reveal" style="margin-top:4rem; padding:2.5rem; background:var(--cream); border-left:3px solid var(--tan); text-align:center;">
+      <span class="eyebrow">Prefer to Call or Text?</span>
+      <h3 style="margin-bottom:1rem;">We're Here to Help</h3>
+      <p style="margin-bottom:1.5rem;">If you'd rather speak with us directly or have a question before booking, reach out anytime during salon hours.</p>
+      <p style="font-size:1.25rem;"><a href="tel:+12010000000" style="color:var(--tan-dark); text-decoration:none; font-weight:500;">(201) 000-0000</a></p>
     </div>
 
     <!-- Cancellation policy -->
